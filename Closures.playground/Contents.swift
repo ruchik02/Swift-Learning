@@ -80,3 +80,23 @@ func add200To(value: Int) -> Int {
 }
 doAddition(on: 22, using: add100To(value:))
 doAddition(on: 30, using: add200To(value:))
+//Example - 6
+//sorting array
+let numbers = [10,8,7,2,5]
+let sortedNumbers = numbers.sorted(by: {$0 < $1})
+print(sortedNumbers)
+// filtering array with closures
+let numbersArray = [1,2,3,4,5,8,10]
+let arraySorted = numbersArray.filter({ $0 % 2 == 0 })
+print(arraySorted);
+// map transformation with closures
+let mapArray = [1,2,3,4,5,6]
+let sortedMapArray = mapArray.map({$0 * 4})
+print(sortedMapArray)
+//calculating the multiplication of function
+func multiple(a: Int, b:Int) -> Int {
+    a * b
+}
+let multi = multiple(a: 10, b: 20)
+print(multi)
+
