@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Protcols.playground">
+      location = "group:Protcol.playground">
    </FileRef>
    <FileRef
       location = "group:Classes.playground">
